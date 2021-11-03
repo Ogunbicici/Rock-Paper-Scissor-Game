@@ -1,0 +1,15 @@
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\bin\Debug\BladSteenSchaarV3.exe.config
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\bin\Debug\BladSteenSchaarV3.exe
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\bin\Debug\BladSteenSchaarV3.pdb
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.csprojAssemblyReference.cache
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\MainWindow.g.cs
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\App.g.cs
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3_MarkupCompile.cache
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3_MarkupCompile.lref
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\MainWindow.baml
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.g.resources
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.Properties.Resources.resources
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.csproj.GenerateResource.cache
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.csproj.CoreCompileInputs.cache
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.exe
+C:\Users\ogun_\Documents\PXL Programmeren\WerkplekLeren\BladSteenSchaar\BladSteenSchaarV3\obj\Debug\BladSteenSchaarV3.pdb

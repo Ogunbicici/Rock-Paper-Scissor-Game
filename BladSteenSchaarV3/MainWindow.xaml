@@ -1,0 +1,88 @@
+﻿<Window x:Class="BladSteenSchaarV3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BladSteenSchaarV3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1200">
+
+    <StackPanel Background="SandyBrown">
+        <Viewbox>
+            <Grid Height="484" Width="836">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="100"></RowDefinition>
+                    <RowDefinition Height="235*"/>
+                    <RowDefinition Height="107*"/>
+
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                    <ColumnDefinition Width="325"></ColumnDefinition>
+                    <ColumnDefinition Width="325"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <!-- Alle labels -->
+                <Label Content="SPELER" Margin="66,56,186,20" Grid.Column="1" HorizontalAlignment="Center" FontWeight="Bold" Width="74" FontFamily="Cooper Black"/>
+                <Label Content="COMPUTER" Margin="180,53,64,23" Grid.Column="2" HorizontalAlignment="Center" FontWeight="Bold" Width="82" FontFamily="Cooper Black"/>
+                <Label Name="SpelerScoreLabel" Margin="47,9,186,44" Content="0" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" Grid.Column="1" FontFamily="Cooper Black" />
+                <Label Name="ComputerScoreLabel" Margin="172,10,64,44" Content="0" Grid.Column="2" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="20" FontFamily="Cooper Black" />
+
+                <!--linker zijkant Buttons-->
+                <Button Name="Schaar" Click="Button_Click_2" Margin="11,0,10,181" Grid.Row="1" Background="Yellow" BorderBrush="Black" BorderThickness="1" MouseEnter="Schaar_MouseEnter" MouseLeave="Schaar_MouseLeave">
+                    <StackPanel>
+                        <Image Name="Schaarpic" Source="Images/schaarpic.png" Height="64" Width="86" />
+                    </StackPanel>
+                </Button>
+
+                <Button Name="Blad" Click="Button_Click" Margin="11,88,10,91" Grid.Row="1" Background="yellow" BorderBrush="Black" BorderThickness="1" MouseEnter="Blad_MouseEnter" MouseLeave="Blad_MouseLeave">
+                    <StackPanel>
+                        <Image Name="Bladpic" Source="Images/Blad.png" Height="73" Width="86" />
+                    </StackPanel>
+                </Button>
+
+                <Button Name="Steen" Click="Button_Click_1" Margin="11,178,10,3" Grid.Row="1" Background="Yellow" BorderBrush="Black" BorderThickness="1" MouseEnter="Steen_MouseEnter" MouseLeave="Steen_MouseLeave">
+                    <StackPanel>
+                        <Image Name="Steenpic" Source="Images/steenpic.png" Height="74" Width="86" />
+                    </StackPanel>
+                </Button>
+
+                <Button Margin="25,53,35,35" Content="Restart" Click="Button_Click_3" Background="Red" Foreground="White" RenderTransformOrigin="0.5,0.5" Grid.Row="2" FontFamily="Cooper Black"/>
+                <Label Name="Resultaat" Margin="220,33,219,29" Grid.ColumnSpan="2" Grid.Column="1" FontStyle="Italic" HorizontalContentAlignment="Center" FontSize="19" FontWeight="Bold" Background="Yellow" BorderBrush="Black" BorderThickness="2" Foreground="Black" FontFamily="Cooper Black">Resultaat</Label>
+
+                <!--Gameplay icons "steen" "blad" "Schaar"-->
+                <Image  Name="SpelerView"  Margin="62,0,43,0" Grid.Column="1" Grid.Row="1" OpacityMask="Black" />
+                <Image Name="ComputerView" Margin="39,0,60,105"   Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" />
+
+
+                <Grid HorizontalAlignment="Center" Grid.Column="1" Margin="279,0,279,188" Grid.Row="1" Width="94" Grid.ColumnSpan="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="0*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label FontSize="20" HorizontalAlignment="Center" FontWeight="Bold" BorderBrush="Black" BorderThickness="1" Margin="5,2,11,2" Width="78" FontFamily="Cooper Black" RenderTransformOrigin="0.5,0.5" >
+                        <Label.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleY="-0.181"/>
+                                <RotateTransform/>
+                                <TranslateTransform Y="-0.114"/>
+                            </TransformGroup>
+                        </Label.RenderTransform> Timer
+                    </Label>
+                    <TextBlock x:Name="TBCountDown" Text="6" TextAlignment="Center" FontSize="30" Margin="6,30,12,3" FontFamily="Cooper Black"/>
+                </Grid>
+
+                <Label Name="spelerLabelCounterSchaar" Content="Schaar: " Grid.Column="1" HorizontalContentAlignment="Center" Margin="92,10,139,72" Grid.Row="2" FontFamily="Cooper Black"/>
+                <Label Name="spelerLabelCounterBlad"  Content="Blad: " Grid.Column="1" HorizontalContentAlignment="Center" Margin="92,40,139,42" Grid.Row="2" FontFamily="Cooper Black"/>
+                <Label Name="spelerLabelCounterSteen"  Content="Steen:" Grid.Column="1" HorizontalContentAlignment="Center" Margin="92,65,139,17" Grid.Row="2" FontFamily="Cooper Black"/>
+
+                <Label Name="cpuLabelCounterSchaar" Content="Schaar: " Grid.Column="2" HorizontalContentAlignment="Center" Margin="96,5,135,77" Grid.Row="2" FontFamily="Cooper Black"/>
+                <Label Name="cpuLabelCounterBlad" Content="Blad: " Grid.Column="2" HorizontalContentAlignment="Center" Margin="96,35,135,47" Grid.Row="2" FontFamily="Cooper Black"/>
+                <Label Name="cpuLabelCounterSteen" Content="Steen: " Grid.Column="2" HorizontalContentAlignment="Center" Margin="96,65,135,17" Grid.Row="2" FontFamily="Cooper Black"/>
+
+            </Grid>
+        </Viewbox>
+    </StackPanel>
+</Window>
